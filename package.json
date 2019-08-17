@@ -1,0 +1,17 @@
+{
+  "name": "translatebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "@google-cloud/translate": "^4.1.3",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Rumsey <max@maxrumsey.xyz> (https://maxrumsey.xyz)",
+  "license": "MIT"
+}
