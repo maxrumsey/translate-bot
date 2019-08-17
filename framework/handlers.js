@@ -26,7 +26,7 @@ exports.message = async msg => {
   const args = cleaned.join(' ')
   if (command == 'help') {
     msg.channel.send('Check your DMs.')
-    msg.author.channel.send([
+    msg.author.send([
       'Translation Bot. Prefix: ' + global.config.prefix,
       'Commands: ',
       global.config.prefix + 'help',
