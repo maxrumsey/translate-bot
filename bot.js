@@ -2,7 +2,7 @@ if (!process.env.TOKEN) {
   require('dotenv').config();
 }
 const config = global.config = require('./config.json')
-process.env.GOOGLE_APPLICATION_CREDENTIALS = './My First Project-8181734a275f.json'
+process.env.GOOGLE_APPLICATION_CREDENTIALS = './api.json'
 const discord = require('discord.js');
 const Client = global.client = new discord.Client();
 
