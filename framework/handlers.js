@@ -16,6 +16,7 @@ exports.message = async msg => {
       ]
     }})
   }
+  if (!msg.content.startsWith(global.config.prefix)) return;
   let cleaned = msg.content.split('')
   for (var i = 0; i < global.config.prefix.length; i++) {
     cleaned.shift();
